@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="weather_app.css">
+    
     <title>Weather App</title>
     <style>
         
@@ -20,10 +21,10 @@
 
     <div id="weather-container"></div>
 </div>
-
+<script src="config.js"></script>
     <script>
         function getWeather() {
-            const apiKey = 'f3906867a77d4cdeb02170436242601'; // Replace with your actual API key
+            const apiKey = config.API_KEY // Replace with your actual API key
             const airquality='yes'
             const locationInput = document.getElementById('location').value;
             const weatherContainer = document.getElementById('weather-container');
