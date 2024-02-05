@@ -195,25 +195,25 @@ outline: none;
 
 /* bg colors acc to weather */
 .clear-sky {
-  background-image: url("clear_sky.jpeg");
+  background-image: url("/assets/clear_sky.jpeg");
   background-repeat: no-repeat;
-  background-size:cover; /* Sky Blue */
+  background-size:cover; /* \Sky Blue */
 }
 .sunny{
-  background-image: url("sunny.jpg");
+  background-image: url("/assets/sunny.jpg");
   background-repeat: no-repeat;
   background-size:cover; 
 }
 
 .few-clouds {
-  background-image: url("partlycloudy.jpg");
+  background-image: url("/assets/partlycloudy.jpg");
     background-repeat: no-repeat;
     background-size:cover;; /* Light Sky Blue */
 }
 
 .scattered-clouds,
 .broken-clouds {
-  background-image: url("scattered.jpg");
+  background-image: url("/assets/scattered.jpg");
   background-repeat: no-repeat;
   background-size:cover; 
 }
@@ -222,33 +222,33 @@ outline: none;
 .patchy-rain,
 .shower-rain,
 .rain {
-  background-image: url("rain.jpg");
+  background-image: url("/assets/rain.jpg");
     background-repeat: no-repeat;
     background-size:cover; 
 }
 
 .thunderstorm {
-  background-image: url("thunder.jpg");
+  background-image: url("/assets/thunder.jpg");
   background-repeat: no-repeat;
   background-size:cover;  /* Slate Gray */
 }
 
 .snow
 {
-  background-image: url("snow.jpg");
+  background-image: url("/assets/snow.jpg");
     background-repeat: no-repeat;
     background-size:cover; /* Lemon Chiffon */
     
 }
 
 .mist {
-  background-image: url("fog.jpg");
+  background-image: url("/assets/fog.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     /* Light Gray */
 }
 .mist {
-  background-image: url("fog.jpg");
+  background-image: url("/assets/fog.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     /* Light Gray */
@@ -256,7 +256,7 @@ outline: none;
 
 .normal{
     /* background-image: linear-gradient(#dda0dd,#ba55d3);  */
-    background-image: url("bg.jpg");
+    background-image: url("/assets/bg.jpg");
     background-repeat: no-repeat;
     background-size:cover;
    
